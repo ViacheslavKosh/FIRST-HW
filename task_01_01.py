@@ -3,9 +3,9 @@
 from datetime import datetime
 
 def get_days_from_today(date):
-    
+
     try:
-        # Повертаємо рядок дати як об'єкт datatime
+        # Повертаємо рядок дати як об'єкт datetime
         date_object = datetime.strptime(date, "%Y-%m-%d")
         
         # Отримуэмо поточну дату 
