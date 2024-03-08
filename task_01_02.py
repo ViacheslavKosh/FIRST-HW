@@ -4,6 +4,7 @@ from datetime import datetime
 
 def get_days_from_today(date):
     
+    # Використовуємо механізм обробки винятків за допомогою оператора try
     try:
         # Повертаємо рядок дати як об'єкт datetime
         date_object = datetime.strptime(date, '%Y-%m-%d')

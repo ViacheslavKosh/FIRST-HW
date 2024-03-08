@@ -9,6 +9,8 @@ print("Hello! Now we will count days from date you type!")
 date = str(input("Enter date using format 'YYYY-MM-DD': "))
 
 def get_days_from_today(date):
+    
+    # Використовуємо механізм обробки винятків за допомогою оператора try
     try:
 
         # Повертаємо рядок дати як об'єкт datetime    
