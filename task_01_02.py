@@ -1,5 +1,6 @@
 # Другий варіант функції яка лишає різницю як об'єкт datetime та повертає з неї кількість днів
 
+# Імпортуємо datetime з модулю datetime для роботи з датою та часом
 from datetime import datetime
 
 def get_days_from_today(date):
