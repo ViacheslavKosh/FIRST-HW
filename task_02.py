@@ -26,6 +26,6 @@ def get_numbers_tickets(min, max, quantity):
     
     # Виводимо попередження якщо кількість відбору вища за кількість чисел у списку
     except ValueError:
-        print(f"Quantity of numbers must be less or equal then the largest number in the range")
+        print(f"Quantity of numbers must in the range from {min} to {max}")
 
-print(get_numbers_tickets(1, 100, 1000))
+print(get_numbers_tickets(1, 400, 1000))
